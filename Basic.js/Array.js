@@ -33,3 +33,13 @@ console.log(fruits);
 
 fruits.shift()  //Removes the first element from an array and returns that removed element
 console.log(fruits);
+
+
+// Inbuilt  loop Method
+
+const number = [10,20,25,30,45,95]
+const newnumbers = number.map((item,index,array) => {
+    // console.log(item,index,array)
+    return item + 10;
+})
+console.log(newnumbers);
