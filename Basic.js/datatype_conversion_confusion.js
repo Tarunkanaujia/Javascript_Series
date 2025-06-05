@@ -35,3 +35,6 @@ console.log(typeof (value5));  // undefined
 
     let booleanno1 = Boolean(1)
     console.log(booleanno1);
+
+    let bigNumber  = 1245879924567n
+     console.log( typeof bigNumber);
