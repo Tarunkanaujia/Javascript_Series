@@ -16,13 +16,13 @@ console.log(check);  //but when we check with datatype "Number" than it shows us
 
 
 let value3 = Number("38");
-console.log(value3);  
+console.log(value3);  //38
 console.log(typeof (value3)); //  but here we got the "number" as output because of using Number datatype.
 
 
 let value4 = null
 console.log(value4); // null
-console.log(typeof (value4));
+console.log(typeof (value4));  // object
 
 
 let value5 = undefined;
