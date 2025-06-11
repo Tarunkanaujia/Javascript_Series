@@ -63,3 +63,47 @@ function loginUsername(username = "John"){   // Minimum value of username is "Jo
  }
 // console.log( loginUsername("tarun"));       // overright the value 
 console.log( loginUsername());
+
+
+// ***@6 topic ***************************
+
+
+function fruitValue(Apple , banana , ...Mango){
+return [Apple,banana, Mango] 
+}
+console.log(fruitValue(30,40 , 70,54,65,4,5))
+
+
+// ***@7 topic ********************* Function with Object *****************
+
+const studentId = {
+    Name : "Tarun",
+    Batch : "2022",
+    ID : "123456"
+}
+
+function showId(MyID){
+    console.log(`my name is ${MyID.Name} and Batch ${MyID.Batch} and this is my id ${MyID.ID}.`)
+}
+// showId(studentId)
+  
+                            //OR
+showId({                    // you can pass the object inside the Arguement.
+    Name : "Virat",
+    Batch : "2024",
+    Id : "4251785"
+})
+
+
+// ***@7 topic ********************* Function with Array *****************
+
+
+const vegitablePrice = [20,15,40,85,90]
+
+function vegPrice(veggie){
+    return veggie[2]
+}
+// console.log(vegPrice(vegitablePrice));
+
+console.log(vegPrice([200,400,450]));   // you can pass the Array inside the Arguement.
+
