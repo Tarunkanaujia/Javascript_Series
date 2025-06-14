@@ -37,3 +37,13 @@ for (let index = 0; index <superHero.length; index++) {
 
 
 
+for (let index = 0; index <=10; index++) {
+if(index == 5){
+    console.log("Detected 5 Number");
+    // break
+    continue
+    
+}
+    console.log(index);
+    
+}
